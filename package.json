@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --ignore-path .gitignore --write .",
+    "eslint": "eslint --ignore-path .gitignore --fix .",
+    "format": "npm run prettier && npm run eslint"
+  },
+  "dependencies": {
+    "evergreen-ui": "^6.6.3",
+    "next": "latest",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.5.1"
+  }
+}
